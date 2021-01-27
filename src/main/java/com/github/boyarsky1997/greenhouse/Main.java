@@ -32,6 +32,8 @@ package com.github.boyarsky1997.greenhouse;
  */
 public class Main {
     public static void main(String[] args) {
-        
+        boolean b = XMLValidation.validateXMLSchema("src\\main\\resources\\greenhouse.xsd", "src\\main\\resources\\greenhouse.xml");
+        System.out.println(b);
+
     }
 }

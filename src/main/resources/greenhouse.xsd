@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="plants">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="flower" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="soil" type="xs:string"/>
+                            <xs:element name="origin" type="xs:string"/>
+                            <xs:element name="visual">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="stem_color" type="xs:string"/>
+                                        <xs:element name="leaf_color" type="xs:string"/>
+                                        <xs:element name="average_plant_size" type="xs:double" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="growing_tips">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="temperature" type="xs:double" maxOccurs="60"/>
+                                        <xs:element name="lighting">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="yes"/>
+                                                    <xs:enumeration value="no"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="watering" type="xs:double"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="multiplying">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="листями"/>
+                                        <xs:enumeration value="зернами"/>
+                                        <xs:enumeration value="пагінцями"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

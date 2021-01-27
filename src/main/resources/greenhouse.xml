@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="greenhouse.xsd">
+    <flower>
+        <name>Кактус</name>
+        <soil>Коричневий</soil>
+        <origin>Мексика</origin>
+        <visual>
+            <stem_color>Зелений</stem_color>
+            <leaf_color>Зелений</leaf_color>
+            <average_plant_size>20.0</average_plant_size>
+        </visual>
+        <growing_tips>
+            <temperature>35</temperature>
+            <lighting>yes</lighting>
+            <watering>15</watering>
+        </growing_tips>
+        <multiplying>пагінцями</multiplying>
+    </flower>
+    <flower>
+        <name>Фі́кус</name>
+        <soil>Чорнозем</soil>
+        <origin>Азія</origin>
+        <visual>
+            <stem_color>Коричневий</stem_color>
+            <leaf_color>Зелений</leaf_color>
+            <average_plant_size>2</average_plant_size>
+        </visual>
+        <growing_tips>
+            <temperature>20</temperature>
+            <lighting>no</lighting>
+            <watering>30</watering>
+        </growing_tips>
+        <multiplying>зернами</multiplying>
+    </flower>
+</plants>

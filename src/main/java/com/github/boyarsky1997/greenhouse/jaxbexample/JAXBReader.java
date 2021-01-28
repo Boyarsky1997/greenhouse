@@ -7,7 +7,7 @@ import java.io.File;
 
 public class JAXBReader {
     public static void main(String[] args) throws JAXBException {
-        File file = new File("src\\main\\java\\com\\github\\boyarsky1997\\greenhouse\\jaxbexample\\jaxbwrite.xml");
+        File file = new File("src\\main\\resources\\jaxbwrite.xml");
         JAXBContext context = JAXBContext.newInstance(Plants.class);
 
         Unmarshaller unmarshaller = context.createUnmarshaller();

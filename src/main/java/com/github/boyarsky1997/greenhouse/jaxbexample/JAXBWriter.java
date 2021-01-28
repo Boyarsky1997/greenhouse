@@ -44,7 +44,7 @@ public class JAXBWriter {
             flower2.setMultiplying("пагінцями");
             flowers.add(flower2);
             plants.setFlowers(flowers);
-            File file = new File("src\\main\\java\\com\\github\\boyarsky1997\\greenhouse\\jaxbexample\\jaxbwrite.xml");
+            File file = new File("src\\main\\resources\\jaxbwrite.xml");
             JAXBContext context = JAXBContext.newInstance(Plants.class);
             Marshaller marshaller = context.createMarshaller();
 

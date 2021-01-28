@@ -32,7 +32,7 @@ package com.github.boyarsky1997.greenhouse;
  */
 public class Main {
     public static void main(String[] args) {
-        boolean b = XMLValidation.validateXMLSchema("src\\main\\resources\\greenhouse.xsd", "src\\main\\resources\\greenhouse.xml");
+        boolean b = XMLValidation.validateXMLSchema("src\\main\\resources\\greenhouse.xsd", "src\\main\\java\\com\\github\\boyarsky1997\\greenhouse\\jaxbexample\\jaxbwrite.xml");
         System.out.println(b);
 
     }

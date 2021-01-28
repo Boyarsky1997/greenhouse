@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<plants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="greenhouse.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plants>
     <flowers>
         <name>Кактус</name>
         <soil>Коричневий</soil>
@@ -11,11 +10,11 @@
             <average_plant_size>20.0</average_plant_size>
         </visual>
         <growingTips>
-            <temperature>35</temperature>
+            <temperature>35.0</temperature>
             <lighting>yes</lighting>
-            <watering>15</watering>
+            <watering>15.0</watering>
         </growingTips>
-        <multiplying>пагінцями</multiplying>
+        <multiplying>зернами</multiplying>
     </flowers>
     <flowers>
         <name>Фі́кус</name>
@@ -24,13 +23,13 @@
         <visual>
             <stem_color>Коричневий</stem_color>
             <leaf_color>Зелений</leaf_color>
-            <average_plant_size>2</average_plant_size>
+            <average_plant_size>2.0</average_plant_size>
         </visual>
         <growingTips>
-            <temperature>20</temperature>
+            <temperature>20.0</temperature>
             <lighting>no</lighting>
-            <watering>30</watering>
+            <watering>30.0</watering>
         </growingTips>
-        <multiplying>зернами</multiplying>
+        <multiplying>пагінцями</multiplying>
     </flowers>
 </plants>

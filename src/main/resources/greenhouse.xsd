@@ -3,7 +3,7 @@
     <xs:element name="plants">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="flower" maxOccurs="unbounded" minOccurs="0">
+                <xs:element name="flowers" maxOccurs="unbounded" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="name" type="xs:string"/>
@@ -18,7 +18,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="growing_tips">
+                            <xs:element name="growingTips">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="temperature" type="xs:double" maxOccurs="60"/>

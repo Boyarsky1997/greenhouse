@@ -20,7 +20,7 @@ public class JAXBWriter {
             visual1.setLeaf_color("Зелений");
             visual1.setAverage_plant_size(20.0);
             flower1.setVisual(visual1);
-            Growing_tips growingTips1 = new Growing_tips();
+            GrowingTips growingTips1 = new GrowingTips();
             growingTips1.setTemperature(35);
             growingTips1.setLighting("yes");
             growingTips1.setWatering(15);
@@ -36,7 +36,7 @@ public class JAXBWriter {
             visual2.setLeaf_color("Зелений");
             visual2.setAverage_plant_size(2);
             flower2.setVisual(visual2);
-            Growing_tips growingTips2 = new Growing_tips();
+            GrowingTips growingTips2 = new GrowingTips();
             growingTips2.setTemperature(20);
             growingTips2.setLighting("no");
             growingTips2.setWatering(30);

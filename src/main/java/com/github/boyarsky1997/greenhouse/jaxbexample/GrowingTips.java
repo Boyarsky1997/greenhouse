@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "growing_tips")
 @XmlType(propOrder = {"temperature", "lighting", "watering"})
 
-public class Growing_tips {
+public class GrowingTips {
     private double temperature;
     private String lighting;
     private double watering;

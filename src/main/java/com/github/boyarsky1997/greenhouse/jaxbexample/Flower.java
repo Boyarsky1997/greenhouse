@@ -12,13 +12,13 @@ public class Flower {
     String soil;
     String origin;
     Visual visual;
-    Growing_tips growing_tips;
+    GrowingTips growing_tips;
     String multiplying;
 
     public Flower() {
     }
 
-    public Flower(String name, String soil, String origin, Visual visual, Growing_tips growing_tips, String multiplying) {
+    public Flower(String name, String soil, String origin, Visual visual, GrowingTips growing_tips, String multiplying) {
         this.name = name;
         this.soil = soil;
         this.origin = origin;
@@ -27,12 +27,12 @@ public class Flower {
         this.multiplying = multiplying;
     }
 
-    public Growing_tips getGrowingTips() {
+    public GrowingTips getGrowingTips() {
         return growing_tips;
     }
 
     @XmlElement()
-    public void setGrowingTips(Growing_tips growing_tips) {
+    public void setGrowingTips(GrowingTips growing_tips) {
         this.growing_tips = growing_tips;
     }
 

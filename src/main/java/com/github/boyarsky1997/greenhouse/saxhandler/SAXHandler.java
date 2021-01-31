@@ -1,6 +1,9 @@
 package com.github.boyarsky1997.greenhouse.saxhandler;
 
 
+import com.github.boyarsky1997.greenhouse.Flower;
+import com.github.boyarsky1997.greenhouse.GrowingTips;
+import com.github.boyarsky1997.greenhouse.Visual;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;

@@ -1,4 +1,4 @@
-package com.github.boyarsky1997.greenhouse.saxhandler;
+package com.github.boyarsky1997.greenhouse;
 
 public class Visual {
     private String stem_color;

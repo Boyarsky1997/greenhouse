@@ -1,4 +1,4 @@
-package com.github.boyarsky1997.greenhouse.saxhandler;
+package com.github.boyarsky1997.greenhouse;
 
 public class GrowingTips {
     private double temperature;
